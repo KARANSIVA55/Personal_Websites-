@@ -160,3 +160,68 @@ footer img{
     width: 20px;
     height: 20px;
 }
+@media(max-width:1000px){
+    header{
+        width: 100%;
+        height: 120px;
+        font-size: 12px;
+    }
+    .Intro{
+        justify-items: center;
+        padding-top: 80px;
+        width: 80%;
+        height: 250PX;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 16px;
+        text-align: center;
+    }
+    .IntroPara{
+        padding-top: 30px;
+    }
+    .Intro img {
+        width: 150px;
+        height: 180px;
+    }
+    .Education{
+        left: 150px;
+        padding-left: 0;
+        justify-self: center;
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+    }
+    .edu{
+        width: 120px;
+        height: 120px;
+    }
+    .Head{
+        text-align: center;
+        justify-self: center;
+    }
+    .Technical{
+        justify-self: center;
+        width: 70%;
+        height: 100px;
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Body{
+        padding-top: 125px;
+    }
+    .Soft{
+        height: 165px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-self: center;
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    footer{
+        width: 100%;
+    }
+}
