@@ -168,7 +168,7 @@ footer img{
     }
     .Intro{
         justify-items: center;
-        padding-top: 80px;
+        padding-top: 40px;
         width: 80%;
         height: 250PX;
         display: grid;
@@ -206,7 +206,7 @@ footer img{
         height: 100px;
         display: grid;
         gap: 0px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
     .Body{
         padding-top: 125px;
