@@ -168,7 +168,7 @@ footer img{
     }
     .Intro{
         justify-items: center;
-        padding-top: 10px;
+        padding-top: 0px;
         width: 80%;
         height: 250PX;
         display: grid;
@@ -177,7 +177,7 @@ footer img{
         text-align: center;
     }
     .IntroPara{
-        padding-top: 30px;
+        padding-top: 8ppx;
     }
     .Intro img {
         width: 150px;
